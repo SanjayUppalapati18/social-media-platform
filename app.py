@@ -25,4 +25,4 @@ def get_feed():
     return jsonify({'feed': posts_db, 'total': len(posts_db)}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
